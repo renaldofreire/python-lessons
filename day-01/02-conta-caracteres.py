@@ -1,5 +1,5 @@
-say_name = input("Qual seu nome? ")
-say_char = str(len(say_name))
+ask_name = input("Qual seu nome? ")
+ask_char = str(len(ask_name))
 
-print("Olá, " + say_name + ".")
-print("O seu nome possui " + say_char + " caracteres.")
+print("Olá, " + ask_name + ".")
+print("O seu nome possui " + ask_char + " caracteres.")
