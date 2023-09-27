@@ -1,6 +1,6 @@
 # Estrutura de dados - aula 00
 
-my_list = ["a", 0, true]
+my_list = ["a", 0, True, False]
 
 my_list.append("Uva roxa")
 my_list.append("Maçã")
@@ -16,6 +16,8 @@ print(my_list)
 
 first_element = my_list[0]
 second_element = my_list[1]
+third_element = my_list[2]
 
-print(first_element)
-print(second_element)
+print("Primeiro elemento é: ", first_element)
+print("Segundo elemento é: ", second_element)
+# print(third_element, mylist[3])
